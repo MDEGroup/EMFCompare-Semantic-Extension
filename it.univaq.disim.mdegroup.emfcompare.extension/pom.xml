@@ -4,6 +4,7 @@
 	<groupId>it.univaq.disim.mdegroup.emfcompare</groupId>
 	<artifactId>semanticextension</artifactId>
 	<version>0.0.1</version>
+	<packaging>jar</packaging>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -35,6 +36,31 @@
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-core</artifactId>
 			<version>5.1.0</version>
+		</dependency>
+		<!-- EMFCompare -->
+		<!-- OK -->
+		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>compare</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+
+		<!-- OK -->
+		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>common</artifactId>
+			<version>2.10.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>ecore.xmi</artifactId>
+			<version>2.10.0</version>
+		</dependency>
+		<!-- OK -->
+		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>ecore</artifactId>
+			<version>2.10.0</version>
 		</dependency>
 	</dependencies>
 </project>
