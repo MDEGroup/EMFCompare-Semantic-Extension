@@ -30,4 +30,11 @@
 			</snapshots>
 		</repository>
 	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-core</artifactId>
+			<version>5.1.0</version>
+		</dependency>
+	</dependencies>
 </project>
