@@ -60,6 +60,16 @@
 	</repositories>
 	<dependencies>
 		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>edu.mit</groupId>
+			<artifactId>jwi</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+		<dependency>
 			<groupId>org.eclipse.emf</groupId>
 			<artifactId>compare</artifactId>
 			<version>3.1.0</version>
@@ -68,11 +78,6 @@
 			<groupId>org.eclipse.emf</groupId>
 			<artifactId>common</artifactId>
 			<version>2.10.0</version>
-		</dependency>
-		<dependency>
-			<groupId>edu.mit</groupId>
-			<artifactId>jwi</artifactId>
-			<version>2.2.3</version>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.emf</groupId>

@@ -1,5 +1,8 @@
 package it.univaq.disim.mdegroup.emfcompare.extension.match;
 
+import java.net.MalformedURLException;
+
+import it.univaq.disim.mdegroup.emfcompare.extension.match.eobject.SemanticDistanceFunction;
 import it.univaq.disim.mdegroup.emfcompare.extension.match.eobject.SemanticDistanceFunction;
 import it.univaq.disim.mdegroup.emfcompare.extension.match.resource.SemanticResourceMatcher;
 
@@ -70,17 +73,24 @@ public class SemanticMatchEngine extends DefaultMatchEngine {
 	public static IEObjectMatcher createDefaultEObjectMatcher(
 			UseIdentifiers useIDs,
 			WeightProvider.Descriptor.Registry weightProviderRegistry) {
-		switch (useIDs) {
-		case NEVER:
-			return new ProximityEObjectMatcher(new SemanticDistanceFunction());
-		case ONLY:
+		try {
+			switch (useIDs) {
+			case NEVER:
+				return new ProximityEObjectMatcher(
+						new SemanticDistanceFunction());
+			case ONLY:
+				return new IdentifierEObjectMatcher();
+			case WHEN_AVAILABLE:
+			default:
+				return new IdentifierEObjectMatcher(
+						new ProximityEObjectMatcher(
+								new SemanticDistanceFunction()));
+
+			}
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
 			return new IdentifierEObjectMatcher();
-		case WHEN_AVAILABLE:
-		default:
-			return new IdentifierEObjectMatcher(new ProximityEObjectMatcher(
-					new SemanticDistanceFunction()));
 		}
-		// return new ProximityEObjectMatcher(new SemanticDistanceFunction());
 	}
 
 }
