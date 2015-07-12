@@ -20,19 +20,15 @@ import org.eclipse.emf.compare.utils.UseIdentifiers;
 public class SemanticMatchEngineFactoryImpl extends MatchEngineFactoryImpl {
 
 	public SemanticMatchEngineFactoryImpl() {
-		this(UseIdentifiers.NEVER,
-				WeightProviderDescriptorRegistryImpl.createStandaloneInstance());
+		this(UseIdentifiers.NEVER, WeightProviderDescriptorRegistryImpl.createStandaloneInstance());
 	}
 
 	public SemanticMatchEngineFactoryImpl(UseIdentifiers useIDs) {
-		this(useIDs, WeightProviderDescriptorRegistryImpl
-				.createStandaloneInstance());
+		this(useIDs, WeightProviderDescriptorRegistryImpl.createStandaloneInstance());
 	}
 
-	public SemanticMatchEngineFactoryImpl(UseIdentifiers useIDs,
-			WeightProvider.Descriptor.Registry weightProviderRegistry) {
-		this.matchEngine = SemanticMatchEngine.create(useIDs,
-				weightProviderRegistry);
+	public SemanticMatchEngineFactoryImpl(UseIdentifiers useIDs, WeightProvider.Descriptor.Registry weightProviderRegistry) {
+		this.matchEngine = SemanticMatchEngine.create(useIDs, weightProviderRegistry); 
 	}
 
 }

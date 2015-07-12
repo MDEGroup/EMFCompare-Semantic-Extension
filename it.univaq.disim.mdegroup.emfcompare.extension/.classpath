@@ -16,5 +16,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/lorenzoaddazi/Downloads/jws-0.12.00.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

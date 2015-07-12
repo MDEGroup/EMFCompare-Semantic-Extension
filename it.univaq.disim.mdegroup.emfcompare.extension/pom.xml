@@ -60,6 +60,11 @@
 	</repositories>
 	<dependencies>
 		<dependency>
+			<groupId>com.github.sharispe</groupId>
+			<artifactId>slib-sml</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		<dependency>
 			<groupId>edu.stanford.nlp</groupId>
 			<artifactId>stanford-corenlp</artifactId>
 			<version>3.5.2</version>
