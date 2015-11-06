@@ -1,0 +1,61 @@
+PrimitiveTypes [class org.eclipse.emf.ecore.impl.EPackageImpl]
+PrimitiveTypes [class org.eclipse.emf.ecore.impl.EPackageImpl]
+
+	PrimitiveTypes [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Integer [class org.eclipse.emf.ecore.impl.EDataTypeImpl]
+	PrimitiveTypes [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Integer [class org.eclipse.emf.ecore.impl.EDataTypeImpl]
+
+	PrimitiveTypes [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		String [class org.eclipse.emf.ecore.impl.EDataTypeImpl]
+	PrimitiveTypes [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		String [class org.eclipse.emf.ecore.impl.EDataTypeImpl]
+
+	PrimitiveTypes [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Boolean [class org.eclipse.emf.ecore.impl.EDataTypeImpl]
+	PrimitiveTypes [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Boolean [class org.eclipse.emf.ecore.impl.EDataTypeImpl]
+
+Book [class org.eclipse.emf.ecore.impl.EPackageImpl]
+Book [class org.eclipse.emf.ecore.impl.EPackageImpl]
+
+	Book [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+	Book [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Book [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		title [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		title [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		nbPages [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		nbPages [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		author [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		author [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		book [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		book [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Book [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Book [class org.eclipse.emf.ecore.impl.EClassImpl]
+	Book [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Book [class org.eclipse.emf.ecore.impl.EClassImpl]
+		title [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	Book [class org.eclipse.emf.ecore.impl.EClassImpl]
+		title [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	Book [class org.eclipse.emf.ecore.impl.EClassImpl]
+		chapters [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Book [class org.eclipse.emf.ecore.impl.EClassImpl]
+		chapters [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+

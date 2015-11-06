@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: common
+Bundle-SymbolicName: custom.org.eclipse.emf.common
+Bundle-Version: 2.1.0
+Bundle-ClassPath: common-2.1.0.jar
+Export-Package: org.eclipse.emf.common,
+ org.eclipse.emf.common.archive,
+ org.eclipse.emf.common.command,
+ org.eclipse.emf.common.notify,
+ org.eclipse.emf.common.notify.impl,
+ org.eclipse.emf.common.util
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

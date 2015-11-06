@@ -1,0 +1,45 @@
+	type_Enum [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		Time [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	AggregationKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		none [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	webml [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Domain [class org.eclipse.emf.ecore.impl.EClassImpl]
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Class [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	webml [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	webml [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Property [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+		domain [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Constraint [class org.eclipse.emf.ecore.impl.EClassImpl]
+		context [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Entity [class org.eclipse.emf.ecore.impl.EClassImpl]
+		attribute [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Classifier [class org.eclipse.emf.ecore.impl.EClassImpl]
+		feature [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Entity [class org.eclipse.emf.ecore.impl.EClassImpl]
+		relationship [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Property [class org.eclipse.emf.ecore.impl.EClassImpl]
+		association [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	webml [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+

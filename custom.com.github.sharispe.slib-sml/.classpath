@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="commons-beanutils-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-beanutils-core-1.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-cli-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-codec-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-configuration-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-dbcp-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-digester-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-httpclient-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-lang-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-pool-1.5.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="jackson-core-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="lucene-core-4.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="opencsv-2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-http-client-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-http-protocol-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-model-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-query-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryalgebra-evaluation-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryalgebra-model-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryparser-api-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryparser-serql-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryparser-sparql-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryresultio-api-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryresultio-binary-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryresultio-sparqljson-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryresultio-sparqlxml-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-queryresultio-text-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-repository-api-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-repository-contextaware-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-repository-dataset-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-repository-event-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-repository-http-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-repository-manager-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-repository-sail-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-repository-sparql-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-api-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-binary-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-datatypes-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-languages-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-n3-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-nquads-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-ntriples-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-rdfjson-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-rdfxml-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-trig-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-trix-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-rio-turtle-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-runtime-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-sail-api-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-sail-federation-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-sail-inferencer-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-sail-memory-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-sail-nativerdf-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-sail-rdbms-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sesame-util-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="slf4j-api-1.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="slf4j-log4j12-1.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="slib-graph-algo-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slib-graph-io-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slib-graph-model-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slib-graph-model-impl-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slib-graph-utils-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slib-indexer-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slib-sml-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slib-tools-module-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slib-utils-0.9.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

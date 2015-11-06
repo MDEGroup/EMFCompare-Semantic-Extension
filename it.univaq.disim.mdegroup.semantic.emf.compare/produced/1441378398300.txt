@@ -1,0 +1,13 @@
+Publication [class org.eclipse.emf.ecore.impl.EPackageImpl]
+Book [class org.eclipse.emf.ecore.impl.EPackageImpl]
+
+	Publication [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Publication [class org.eclipse.emf.ecore.impl.EClassImpl]
+	Book [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Book [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Publication [class org.eclipse.emf.ecore.impl.EClassImpl]
+		authors [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		author [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+

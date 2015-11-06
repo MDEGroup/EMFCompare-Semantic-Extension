@@ -1,0 +1,35 @@
+	webml [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+	ER [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	webml [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+	ER [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	webml [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Entity [class org.eclipse.emf.ecore.impl.EClassImpl]
+	ER [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Entity [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Entity [class org.eclipse.emf.ecore.impl.EClassImpl]
+		attribute [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	PrimaryKey [class org.eclipse.emf.ecore.impl.EClassImpl]
+		attribute [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Entity [class org.eclipse.emf.ecore.impl.EClassImpl]
+		relationship [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	RelationshipEnd [class org.eclipse.emf.ecore.impl.EClassImpl]
+		owningRelationship [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Entity [class org.eclipse.emf.ecore.impl.EClassImpl]
+		superEntity [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	RelationshipEnd [class org.eclipse.emf.ecore.impl.EClassImpl]
+		entity [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+

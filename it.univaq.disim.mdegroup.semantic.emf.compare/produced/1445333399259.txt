@@ -1,0 +1,325 @@
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		AggregationKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		AggregationKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+
+	AggregationKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		none [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	AggregationKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		none [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	AggregationKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		composite [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	AggregationKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		composite [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+
+	ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		in [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		in [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		inout [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		inout [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		out [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		out [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		return [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	ParameterDirectionKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		return [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+
+	VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		public [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		public [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		private [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		private [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		protected [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		protected [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		package [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+	VisibilityKind [class org.eclipse.emf.ecore.impl.EEnumImpl]
+		package [class org.eclipse.emf.ecore.impl.EEnumLiteralImpl]
+
+	RedefinableElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		isLeaf [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	Operation [class org.eclipse.emf.ecore.impl.EClassImpl]
+		isLeaf [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	GeneralizationSet [class org.eclipse.emf.ecore.impl.EClassImpl]
+		generalization [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	AssociationEnd [class org.eclipse.emf.ecore.impl.EClassImpl]
+		association [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	GeneralizationSet [class org.eclipse.emf.ecore.impl.EClassImpl]
+		powertype [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Generalization [class org.eclipse.emf.ecore.impl.EClassImpl]
+		powertype [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Interface [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Interface [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Dependency [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Dependency [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Dependency [class org.eclipse.emf.ecore.impl.EClassImpl]
+		supplier [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Dependency [class org.eclipse.emf.ecore.impl.EClassImpl]
+		supplier [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Dependency [class org.eclipse.emf.ecore.impl.EClassImpl]
+		client [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Dependency [class org.eclipse.emf.ecore.impl.EClassImpl]
+		client [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		EnumerationLiteral [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		EnumerationLiteral [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	EnumerationLiteral [class org.eclipse.emf.ecore.impl.EClassImpl]
+		enumeration [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	EnumerationLiteral [class org.eclipse.emf.ecore.impl.EClassImpl]
+		enumeration [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Enumeration [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Enumeration [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Enumeration [class org.eclipse.emf.ecore.impl.EClassImpl]
+		ownedLiteral [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Enumeration [class org.eclipse.emf.ecore.impl.EClassImpl]
+		literal [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Association [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Association [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Property [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Property [class org.eclipse.emf.ecore.impl.EClassImpl]
+		aggregation [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	AssociationEnd [class org.eclipse.emf.ecore.impl.EClassImpl]
+		aggregation [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	Property [class org.eclipse.emf.ecore.impl.EClassImpl]
+		association [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Classifier [class org.eclipse.emf.ecore.impl.EClassImpl]
+		association [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Property [class org.eclipse.emf.ecore.impl.EClassImpl]
+		qualifier [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	AssociationEnd [class org.eclipse.emf.ecore.impl.EClassImpl]
+		qualifier [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Property [class org.eclipse.emf.ecore.impl.EClassImpl]
+		associationEnd [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+		associationEnd [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Class [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Class [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Class [class org.eclipse.emf.ecore.impl.EClassImpl]
+		ownedOperation [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Method [class org.eclipse.emf.ecore.impl.EClassImpl]
+		operation [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Operation [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Operation [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Operation [class org.eclipse.emf.ecore.impl.EClassImpl]
+		isQuery [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	BehavioralFeature [class org.eclipse.emf.ecore.impl.EClassImpl]
+		isQuery [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Parameter [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Parameter [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		BehavioralFeature [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		BehavioralFeature [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Feature [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Feature [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Classifier [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Classifier [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Classifier [class org.eclipse.emf.ecore.impl.EClassImpl]
+		isAbstract [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	Operation [class org.eclipse.emf.ecore.impl.EClassImpl]
+		isAbstract [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	Classifier [class org.eclipse.emf.ecore.impl.EClassImpl]
+		generalization [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	GeneralizableElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		generalization [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Classifier [class org.eclipse.emf.ecore.impl.EClassImpl]
+		feature [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Parameter [class org.eclipse.emf.ecore.impl.EClassImpl]
+		feature [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Generalization [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Abstraction [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Constraint [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Constraint [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Constraint [class org.eclipse.emf.ecore.impl.EClassImpl]
+		constrainedElement [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Constraint [class org.eclipse.emf.ecore.impl.EClassImpl]
+		constrainedElement [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Constraint [class org.eclipse.emf.ecore.impl.EClassImpl]
+		specification [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	AssociationEnd [class org.eclipse.emf.ecore.impl.EClassImpl]
+		specification [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	TypedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		type [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	StructuralFeature [class org.eclipse.emf.ecore.impl.EClassImpl]
+		type [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	ValueSpecification [class org.eclipse.emf.ecore.impl.EClassImpl]
+		owningParameter [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	BehavioralFeature [class org.eclipse.emf.ecore.impl.EClassImpl]
+		parameter [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	MultiplicityElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		isOrdered [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	StructuralFeature [class org.eclipse.emf.ecore.impl.EClassImpl]
+		ordering [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	PackageImport [class org.eclipse.emf.ecore.impl.EClassImpl]
+		visibility [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	ElementOwnership [class org.eclipse.emf.ecore.impl.EClassImpl]
+		visibility [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Namespace [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		NameSpace [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	ModelElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		visibility [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	AssociationEnd [class org.eclipse.emf.ecore.impl.EClassImpl]
+		visibility [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		supplierDependency [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	ModelElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		supplierDependency [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		clientDependency [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	ModelElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		clientDependency [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Comment [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Comment [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Element [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Element [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Element [class org.eclipse.emf.ecore.impl.EClassImpl]
+		ownedComment [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	ModelElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		comments [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Element [class org.eclipse.emf.ecore.impl.EClassImpl]
+		owner [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	Feature [class org.eclipse.emf.ecore.impl.EClassImpl]
+		owner [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		StructuralFeature [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		StructuralFeature [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		DataType [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		DataType [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		PrimitiveType [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Primitive [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Abstraction [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Generalization [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Usage [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Usage [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	uml2CD [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		AssociationClass [class org.eclipse.emf.ecore.impl.EClassImpl]
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		AssociationClass [class org.eclipse.emf.ecore.impl.EClassImpl]
+

@@ -1,0 +1,30 @@
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Dependency [class org.eclipse.emf.ecore.impl.EClassImpl]
+	ER [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		FunctionalDependency [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		AssociationEnd [class org.eclipse.emf.ecore.impl.EClassImpl]
+	ER [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		RelationshipEnd [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+	ER [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Classifier [class org.eclipse.emf.ecore.impl.EClassImpl]
+		feature [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	PrimaryKey [class org.eclipse.emf.ecore.impl.EClassImpl]
+		attribute [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	ModelElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	UML_14 [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+	ER [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Relationship [class org.eclipse.emf.ecore.impl.EClassImpl]
+

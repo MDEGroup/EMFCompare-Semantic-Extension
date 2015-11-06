@@ -1,0 +1,30 @@
+	webml [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+	ecore [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		EAttribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	Attribute [class org.eclipse.emf.ecore.impl.EClassImpl]
+		domain [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	EAnnotation [class org.eclipse.emf.ecore.impl.EClassImpl]
+		contents [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	Entity [class org.eclipse.emf.ecore.impl.EClassImpl]
+		attribute [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+	EClass [class org.eclipse.emf.ecore.impl.EClassImpl]
+		eAttributes [class org.eclipse.emf.ecore.impl.EReferenceImpl]
+
+	webml [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+	ecore [class org.eclipse.emf.ecore.impl.EPackageImpl]
+		ENamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+
+	NamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	ENamedElement [class org.eclipse.emf.ecore.impl.EClassImpl]
+		name [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
+	DomainValue [class org.eclipse.emf.ecore.impl.EClassImpl]
+		value [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+	EEnumLiteral [class org.eclipse.emf.ecore.impl.EClassImpl]
+		value [class org.eclipse.emf.ecore.impl.EAttributeImpl]
+
