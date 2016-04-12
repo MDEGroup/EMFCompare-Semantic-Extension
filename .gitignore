@@ -4,4 +4,3 @@ target/*
 .classpath
 .project
 build.properties
-.gitignore
