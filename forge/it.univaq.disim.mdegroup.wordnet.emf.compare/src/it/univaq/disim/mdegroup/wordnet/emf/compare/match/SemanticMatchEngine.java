@@ -2,12 +2,15 @@ package it.univaq.disim.mdegroup.wordnet.emf.compare.match;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import it.univaq.disim.mdegroup.wordnet.emf.compare.match.eobject.HybridEObjectMatcher;
+import it.univaq.disim.mdegroup.wordnet.emf.compare.match.impl.SemanticMatchEngineFactoryRegistryImpl;
 
 import java.util.Collections;
 
 import org.eclipse.emf.common.notify.Notifier;
 import org.eclipse.emf.common.util.Monitor;
+import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.compare.Comparison;
+import org.eclipse.emf.compare.EMFCompare;
 import org.eclipse.emf.compare.match.DefaultComparisonFactory;
 import org.eclipse.emf.compare.match.DefaultEqualityHelperFactory;
 import org.eclipse.emf.compare.match.DefaultMatchEngine;
@@ -18,11 +21,13 @@ import org.eclipse.emf.compare.match.eobject.WeightProvider;
 import org.eclipse.emf.compare.match.eobject.WeightProviderDescriptorRegistryImpl;
 import org.eclipse.emf.compare.match.resource.IResourceMatcher;
 import org.eclipse.emf.compare.match.resource.StrategyResourceMatcher;
+import org.eclipse.emf.compare.scope.DefaultComparisonScope;
 import org.eclipse.emf.compare.scope.IComparisonScope;
 import org.eclipse.emf.compare.utils.UseIdentifiers;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.ResourceSet;
+import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 
 import com.google.common.collect.Iterators;
 import com.google.common.collect.Lists;
@@ -244,7 +249,7 @@ public class SemanticMatchEngine implements IMatchEngine {
 	public static IMatchEngine create(UseIdentifiers useIDs, WeightProvider.Descriptor.Registry weightProviderRegistry){
 		final IComparisonFactory comparisonFactory = new DefaultComparisonFactory(new DefaultEqualityHelperFactory());
 		final IEObjectMatcher eObjectMatcher = createDefaultEObjectMatcher(useIDs, weightProviderRegistry);
-		final IMatchEngine matchEngine = new DefaultMatchEngine(eObjectMatcher, comparisonFactory);
+		final IMatchEngine matchEngine = new SemanticMatchEngine(eObjectMatcher, comparisonFactory);
 		return matchEngine; 
 	}
 	
@@ -275,8 +280,19 @@ public class SemanticMatchEngine implements IMatchEngine {
 		return new HybridEObjectMatcher();
 	}
 	
-
-
-
+	/*** 
+	 * MDE FORGE - JAR Access Point 
+	 ***/
+	public static Comparison match(String firstPath, String secondPath){
+		/** Build Comparison Scope **/
+		ResourceSet firstResourceSet = new ResourceSetImpl();
+		firstResourceSet.getResource(URI.createFileURI(firstPath), true); 
+		ResourceSet secondResourceSet = new ResourceSetImpl();
+		secondResourceSet.getResource(URI.createFileURI(secondPath), true); 
+		IComparisonScope comparisonScope = new DefaultComparisonScope(firstResourceSet, secondResourceSet, null); 
+		/** Build Match Engine Factory Registry **/
+		IMatchEngine.Factory.Registry matchEngineFactoryRegistry = SemanticMatchEngineFactoryRegistryImpl.createStandaloneInstance(); 
+		return EMFCompare.builder().setMatchEngineFactoryRegistry(matchEngineFactoryRegistry).build().compare(comparisonScope); 
+	}
 	
 }
