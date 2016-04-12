@@ -1,5 +1,0 @@
-	Chapter [class org.eclipse.emf.ecore.impl.EClassImpl]
-		book [class org.eclipse.emf.ecore.impl.EReferenceImpl]
-	DocBook [class org.eclipse.emf.ecore.impl.EClassImpl]
-		books [class org.eclipse.emf.ecore.impl.EReferenceImpl]
-
