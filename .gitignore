@@ -1,5 +1,7 @@
 .settings
+META-INF
 target/*
 .classpath
 .project
 build.properties
+.gitignore
