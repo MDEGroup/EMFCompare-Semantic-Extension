@@ -84,7 +84,6 @@ public class SemanticMatchEngine implements IMatchEngine {
 	 *		The monitor to report progress or to check for cancellation
 	 **/
 	protected void match(Comparison comparison, IComparisonScope comparisonScope, final Notifier left, final Notifier right, final Notifier origin, Monitor monitor){
-		System.out.println("1 : " + comparison.getMatches().size());
 		if(comparison.isThreeWay()){
 			if(left instanceof ResourceSet && right instanceof ResourceSet && origin instanceof ResourceSet){ 
 				this.match(comparison, comparisonScope, (ResourceSet)left, (ResourceSet)right, (ResourceSet)origin, monitor); 
@@ -122,7 +121,6 @@ public class SemanticMatchEngine implements IMatchEngine {
 	 *		The monitor to report progress or to check for cancellation.
 	 **/
 	protected void match(Comparison comparison, IComparisonScope comparisonScope, ResourceSet left, ResourceSet right, ResourceSet origin, Monitor monitor){
-		System.out.println("2 : " + comparison.getMatches().size());
 		if(!comparison.isThreeWay()){
 			for(Resource leftResource : Lists.newArrayList(comparisonScope.getCoveredResources(left))){
 				for(Resource rightResource : Lists.newArrayList(comparisonScope.getCoveredResources(right))){
@@ -158,7 +156,6 @@ public class SemanticMatchEngine implements IMatchEngine {
 	 *		The monitor to report progress or to check for cancellation.
 	 **/
 	protected void match(Comparison comparison, IComparisonScope comparisonScope, Resource left, Resource right, Resource origin, Monitor monitor){
-		System.out.println("3 : " + comparison.getMatches().size());
 		/* Resource Matching - Create Resource Matcher */
 		IResourceMatcher resourceMatcher = this.createResourceMatcher();
 		/* Resource Matching - Update Comparison */
@@ -202,7 +199,6 @@ public class SemanticMatchEngine implements IMatchEngine {
 	 *		The monitor to report progress or to check for cancellation.
 	 **/
 	protected void match(Comparison comparison, IComparisonScope comparisonScope, EObject left, EObject right, EObject origin, Monitor monitor){
-		System.out.println("4 : " + comparison.getMatches().size());
 		IEObjectMatcher eObjectMatcher = this.createEObjectMatcher(); 
 		eObjectMatcher.createMatches(comparison, Iterators.singletonIterator(left), Iterators.singletonIterator(right), 
 				origin != null ? Iterators.singletonIterator(origin) : Collections.emptyIterator(), monitor);
